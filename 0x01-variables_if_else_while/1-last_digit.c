@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - defines the function and returns value
- * blank space
- * Return: 0
+ *main -> prints the last number into a variable
+ *blank line
+ *Return: 0
  */
 int main(void)
 {
@@ -13,21 +14,22 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+
 	x = n % 10;
-	printf("Last digit of %d is %d\n ", n, x);
+	printf("Last digit of %d is %d ", n, x);
 	if (x > 5)
 	{
-		printf(" and is greater than 5");
+		printf("and is greater than 5");
 	}
 	if (x == 0)
 	{
-		printf(" and is 0");
+		printf("and is 0");
 	}
 	if (x < 6 && x != 0)
 	{
-		printf(" and is less than 6 and not 0");
+		printf("and is less than 6 and not 0");
 	}
+
 	printf("\n");
 
 	return (0);
