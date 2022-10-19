@@ -3,7 +3,7 @@
  * alphabet - is the function that is defined
   * Return: 0
  */
-void alphabet(void)
+void print_alphabet(void)
 {
 	char letters;
 
