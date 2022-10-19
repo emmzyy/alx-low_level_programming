@@ -17,7 +17,7 @@ void times_table(void)
 
 			reslt = num * mul;
 
-			if (resl <= 9)
+			if (reslt <= 9)
 				_putchar(' ');
 			else
 				_putchar((reslt / 10) + '0');
