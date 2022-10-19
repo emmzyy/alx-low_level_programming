@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * alphabet - is the function that is defined
+ * print_alphabet - is the function that is defined
   * Return: 0
  */
 void print_alphabet(void)
